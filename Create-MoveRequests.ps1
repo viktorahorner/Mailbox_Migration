@@ -2,7 +2,8 @@
 # Enter the name of your migration batch
 # Enter the location of your list of users who should be migrated.... (Simply a list with e-mail addresses)
 # If you need to delay completion date for some days, just add the amount of days from now.
-#
+#script sample Create-MoveRequests -batchname '2ndBatch' -userlistlocation 'C:\temp\userlist.txt' -completeafterdays '5' 
+
 function Create-MoveRequests
 {
 param($batchname, $userlistlocation, $completeafterdays)
