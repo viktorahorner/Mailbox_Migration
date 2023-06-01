@@ -1,7 +1,6 @@
 function Cancel-FailedMoverequests
 {
 param($batchname, $userlistlocation)
-load-Config
 $badrequests =@()
 $failedlist = @()
 $global:searchrequestlocation = 'C:\temp\'
